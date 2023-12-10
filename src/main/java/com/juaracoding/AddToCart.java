@@ -39,11 +39,6 @@ public class AddToCart {
         slcSize.selectByIndex(3);
         System.out.println("size selected");
 
-        //add count
-        WebElement addProduct = driver.findElement(By.xpath("//*[@id=\"product-1497\"]/div[1]/div[2]/form/div/div[2]/div/div/button[2]"));
-        addProduct.click();
-        System.out.println("count added");
-
         //button add to cart
         delay(3);
         WebElement btnCart = driver.findElement(By.xpath("//*[@id=\"product-1497\"]/div[1]/div[2]/form/div/div[2]/button"));
